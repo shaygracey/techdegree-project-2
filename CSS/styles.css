@@ -65,7 +65,18 @@ header {
 
 @media (min-width:768px) {
 
-
+    .pro1, .pro2 {
+        float:left;
+        width:50%;
+    }
+    .pro3, .pro4 {
+        float:left;
+        width:50%;
+    }
+    .pro5, .pro6 {
+        float:left;
+        width:50%;
+    }
 
 }
 
@@ -82,7 +93,7 @@ header {
         float:left;
     
     }
-    .col1, .col2, .col3 {
+    .pro1, .pro2, .pro3, .pro4, .pro5, .pro6 {
       float:left;
       width:33.3%; 
       padding:1%;
