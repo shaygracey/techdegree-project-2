@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <header class="clearfix">
-        <div>
+    <div class="wrapper">
+    <header id="Home">
+        <div class="clearfix">
             <h1 class="name">Shaylee Gracey</h1>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
+                    <a href="#Home"><li>Home</li></a>
+                    <a href="#Portfolio"><li>Portfolio</li></a>
+                    <a href="#Skills"><li>Skills</li></a>
+                    <a href="#Contact"><li>Contact</li></a>
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="clearfix">
             <picture>
                 <img src="Images/responsive-layout-profile.png" class="profile-image">
             </picture>
-            <p>fdjg dfljg ldfj gldfjgjldf jfg lfjdjl fgj</p>
+            <p class="profile">Hi! I'm a front-end developer with a passion for responsive design.
+                                I recently finished the Techdegree program with Team Treehouse, and
+                                I'm excited to put my new skills to use!
+            </p>
         </div>
     </header>
 
     <main>
-        <div class="clearfix, portfolio">
+        <div class="clearfix, portfolio" id="Portfolio">
         <h1>Portfolio</h1>
         <div class="col1">
             <img src="Images/portfolio-1.png">
@@ -79,13 +85,13 @@
 
                 </div>
 
-                 <div>
+                 <div id="Skills">
                      <h1>
                          Skills
                      </h1>
                  </div>
 
-                 <div>
+                 <div id="Contact">
                         <h1>
                             Contact
                         </h1>
@@ -96,11 +102,13 @@
         <h3 class="name">Shaylee Gracey 2019</h3>
         <nav>
                 <ul>
-                        <li>Home</li>
-                        <li>Portfolio</li>
-                        <li>Contact</li>
+                        <a href="#Home"><li>Home</li></a>
+                        <a href="#Portfolio"><li>Portfolio</li></a>
+                        <a href="#Skills"><li>Skills</li></a>
+                        <a href="#Contact"><li>Contact</li></a>
                     </ul>
         </nav>
     </footer>
+</div>
 </body>
 </html>
