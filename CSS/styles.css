@@ -3,7 +3,13 @@
 ==================================== */
 * {
     box-sizing: border-box;
+
+}
+p, li, a{
     font-family:'Nanum Gothic', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
 }
 body h1{
     text-align: center;
@@ -28,10 +34,7 @@ p {
     height:100%;
 }
 a:hover{
-    color:#9d9d9d
-}
-a:visited{
-    color: #414141
+    color:#c9cec6
 }
 .profile{
     font-size: 1.5rem;
@@ -151,11 +154,11 @@ footer{
     .footer-nav {
         float: right;
         display: block;
-        width:50%
+        width:20em;
     }
     .footer-name{
         float:left;
-        width:40%;
+        width:10em;
     }
     .profile-image{
         width:50%;
@@ -210,11 +213,11 @@ footer{
     }
     .footer-nav {
         float: right;
-        width:35%;
+        width:20em;
     }
     .footer-name{
         float:left;
-        width:50%;
+        width:10em;
     }
     .contact{
         margin: 5% 20%;
